@@ -35,10 +35,10 @@ console.log(jsNinja())
 */
 
 //CODE HERE
-//function printname(name) {
-//  console.log(name)
-
-//printname('Blake')
+function printname(name) {
+ console.log(name)
+}
+printname('Blake')
 ////////////////// PROBLEM 4 ////////////////////
 /*
   Create a function called greeting that
@@ -50,10 +50,10 @@ console.log(jsNinja())
 */
 
 //CODE HERE
-//function greeting(name) {
-//  console.log('hello, '+(name))
-
-//greeting('Blake')
+function greeting(name) {
+ console.log('hello, '+(name))
+}
+greeting('Blake')
 ////////////////// PROBLEM 5 ////////////////////
 
 /*
@@ -374,13 +374,13 @@ function pond() {
 */
 
 //This array should contain the variable names (as strings) accessible in the global scope.
-let globalScope = []
+let globalScope = ['duck']
 
 //This array should contain the variable names (as strings) accessible in the bathroom function.
-let bathroomScope = []
+let bathroomScope = ['rubberDuck']
 
 //This array should contain the variable names (as strings) accessible in the bathtub function.
-let bathtubScope = []
+let bathtubScope = ['sailorDuck']
 
 //This array should contain the variable names (as strings) accessible in the pond function.
-let pondScope = []
+let pondScope = ['realDuck']
